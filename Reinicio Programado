@@ -1,0 +1,4 @@
+@echo off 
+title Reiniciando el sistema
+shutdown -r -f -t 10
+exit
