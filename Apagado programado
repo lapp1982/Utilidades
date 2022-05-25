@@ -1,0 +1,148 @@
+@echo off 
+title Apagando el sistema
+echo Menu general
+echo ------------
+echo.
+echo  1. Apagar en 20 segundos
+echo  2. Apagar en 40 segundos
+echo  3. Apagar en 1 minuto
+echo  4. Apagar en 2 minutos
+echo  5. Apagar en 5 minutos
+echo  6. Apagar en 10 minutos
+echo  7. Apagar en 15 minutos
+echo  8. Apagar en 30 minutos
+echo  9. Apagar en 45 minutos
+echo 10. Apagar en 1 hora
+echo 11. Apagar en 2 horas
+echo 12. Apagar en 3 horas
+echo 13. Apagar en 4 horas
+echo 14. Apagar en 5 horas
+echo 15. Apagar en 6 horas
+echo 16. Apagar en 7 horas
+echo 17. Apagar en 8 horas
+echo 18. Apagar en 9 horas
+echo 19. Supender apagado
+echo 20. SALIR
+echo.
+echo Introduzca una opcion:
+set /p opc=
+if %opc%==1 goto 20 
+if %opc%==2 goto 40 
+if %opc%==3 goto 01 
+if %opc%==4 goto 02 
+if %opc%==5 goto 05 
+if %opc%==6 goto 10 
+if %opc%==7 goto 15 
+if %opc%==8 goto 30 
+if %opc%==9 goto 45 
+if %opc%==10 goto 1 
+if %opc%==11 goto 2 
+if %opc%==12 goto 3 
+if %opc%==13 goto 4 
+if %opc%==14 goto 5 
+if %opc%==15 goto 6
+if %opc%==16 goto 7 
+if %opc%==17 goto 8 
+if %opc%==18 goto 9 
+if %opc%==19 goto 100 
+if %opc%==20 goto 101
+
+:20 
+cls 
+shutdown -s -t 20 -c "Apagando el sistema 20 segundos" 
+exit 
+
+:40 
+cls 
+shutdown -s -t 40 -c "Apagando el sistema 40 segundos" 
+exit 
+
+:01 
+cls 
+shutdown -s -t 60 -c "Apagando el sistema 1 minuto" 
+exit 
+
+:02 
+cls 
+shutdown -s -t 120 -c "Apagando el sistema 2 minutos" 
+exit 
+
+:05 
+cls 
+shutdown -s -t 300 -c "Apagando el sistema 5 minutos" 
+exit 
+
+:10 
+cls 
+shutdown -s -t 600 -c "Apagando el sistema 10 minutos" 
+exit 
+
+:15 
+cls 
+shutdown -s -t 900 -c "Apagando el sistema 15 minutos" 
+exit 
+
+:30 
+cls 
+shutdown -s -t 1800 -c "Apagando el sistema 30 minutos" 
+exit 
+
+:45 
+cls 
+shutdown -s -t 2700 -c "Apagando el sistema 45 minutos" 
+exit 
+
+:1 
+cls 
+shutdown -s -t 3600 -c "Apagando el sistema 1 hora" 
+exit 
+
+:2 
+cls 
+shutdown -s -t 7200 -c "Apagando el sistema 2 horas" 
+exit 
+
+:3 
+cls 
+shutdown -s -t 10800 -c "Apagando el sistema 3 horas" 
+exit 
+
+:4 
+cls 
+shutdown -s -t 14400 -c "Apagando el sistema 4 horas" 
+exit 
+
+:5 
+cls 
+shutdown -s -t 18000 -c "Apagando el sistema 5 horas" 
+exit 
+
+:6 
+cls 
+shutdown -s -t 21600 -c "Apagando el sistema 6 horas" 
+exit 
+
+:7 
+cls 
+shutdown -s -t 25200 -c "Apagando el sistema 7 horas" 
+exit 
+
+:8 
+cls 
+shutdown -s -t 28800 -c "Apagando el sistema 8 horas" 
+exit 
+
+:9 
+cls 
+shutdown -s -t 32400 -c "Apagando el sistema 9 horas" 
+exit 
+
+:100 
+cls 
+shutdown -a 
+exit 
+
+:101 
+cls 
+pause 
+exit
