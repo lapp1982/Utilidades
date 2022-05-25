@@ -1,0 +1,15 @@
+'v 1.20111215c
+Set objFSO = CreateObject("Scripting.FileSystemObject")
+'Dim carpetas int
+carpetas = InputBox("Introduzca el numero de carpetas que desea crear. Maximo 99.", "Generador de carpetas", "")
+if carpetas > 0 and carpetas < 100 then
+	For i = 1 to carpetas
+		If i < 10 then
+			Set objFolder = objFSO.CreateFolder ("0" & i)
+		else
+			Set objFolder = objFSO.CreateFolder (i)
+		end if
+	Next
+else
+	carpetas = MsgBox("Introduzca un numero de carpetas entre 1 y 99.",16,"Generador de carpetas")
+end if
