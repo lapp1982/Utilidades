@@ -49,92 +49,92 @@ if %opc%==20 goto 101
 
 :20 
 cls 
-shutdown -s -t 20 -c "Apagando el sistema 20 segundos" 
+shutdown -s -t 20 -c "Apagando el sistema en 20 segundos" 
 exit 
 
 :40 
 cls 
-shutdown -s -t 40 -c "Apagando el sistema 40 segundos" 
+shutdown -s -t 40 -c "Apagando el sistema en 40 segundos" 
 exit 
 
 :01 
 cls 
-shutdown -s -t 60 -c "Apagando el sistema 1 minuto" 
+shutdown -s -t 60 -c "Apagando el sistema en 1 minuto" 
 exit 
 
 :02 
 cls 
-shutdown -s -t 120 -c "Apagando el sistema 2 minutos" 
+shutdown -s -t 120 -c "Apagando el sistema en 2 minutos" 
 exit 
 
 :05 
 cls 
-shutdown -s -t 300 -c "Apagando el sistema 5 minutos" 
+shutdown -s -t 300 -c "Apagando el sistema en 5 minutos" 
 exit 
 
 :10 
 cls 
-shutdown -s -t 600 -c "Apagando el sistema 10 minutos" 
+shutdown -s -t 600 -c "Apagando el sistema en 10 minutos" 
 exit 
 
 :15 
 cls 
-shutdown -s -t 900 -c "Apagando el sistema 15 minutos" 
+shutdown -s -t 900 -c "Apagando el sistema en 15 minutos" 
 exit 
 
 :30 
 cls 
-shutdown -s -t 1800 -c "Apagando el sistema 30 minutos" 
+shutdown -s -t 1800 -c "Apagando el sistema en 30 minutos" 
 exit 
 
 :45 
 cls 
-shutdown -s -t 2700 -c "Apagando el sistema 45 minutos" 
+shutdown -s -t 2700 -c "Apagando el sistema en 45 minutos" 
 exit 
 
 :1 
 cls 
-shutdown -s -t 3600 -c "Apagando el sistema 1 hora" 
+shutdown -s -t 3600 -c "Apagando el sistema en 1 hora" 
 exit 
 
 :2 
 cls 
-shutdown -s -t 7200 -c "Apagando el sistema 2 horas" 
+shutdown -s -t 7200 -c "Apagando el sistema en 2 horas" 
 exit 
 
 :3 
 cls 
-shutdown -s -t 10800 -c "Apagando el sistema 3 horas" 
+shutdown -s -t 10800 -c "Apagando el sistema en 3 horas" 
 exit 
 
 :4 
 cls 
-shutdown -s -t 14400 -c "Apagando el sistema 4 horas" 
+shutdown -s -t 14400 -c "Apagando el sistema en 4 horas" 
 exit 
 
 :5 
 cls 
-shutdown -s -t 18000 -c "Apagando el sistema 5 horas" 
+shutdown -s -t 18000 -c "Apagando el sistema en 5 horas" 
 exit 
 
 :6 
 cls 
-shutdown -s -t 21600 -c "Apagando el sistema 6 horas" 
+shutdown -s -t 21600 -c "Apagando el sistema en 6 horas" 
 exit 
 
 :7 
 cls 
-shutdown -s -t 25200 -c "Apagando el sistema 7 horas" 
+shutdown -s -t 25200 -c "Apagando el sistema en 7 horas" 
 exit 
 
 :8 
 cls 
-shutdown -s -t 28800 -c "Apagando el sistema 8 horas" 
+shutdown -s -t 28800 -c "Apagando el sistema en 8 horas" 
 exit 
 
 :9 
 cls 
-shutdown -s -t 32400 -c "Apagando el sistema 9 horas" 
+shutdown -s -t 32400 -c "Apagando el sistema en 9 horas" 
 exit 
 
 :100 
